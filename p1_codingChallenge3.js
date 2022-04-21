@@ -1,4 +1,4 @@
-//coding challenge #3
+// coding challenge #3
 
 const numberOfComptetitions = 3;
 
