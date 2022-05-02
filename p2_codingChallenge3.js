@@ -3,7 +3,7 @@ const mark = {
     mass: 78,
     height: 1.69,
     calcBMI: function () {
-        return (mark.mass / mark.height ** 2).toFixed(1);
+        return (this.mass / this.height ** 2).toFixed(1);
     }
 };
 
@@ -12,7 +12,7 @@ const john = {
     mass: 92,
     height: 1.95,
     calcBMI: function () {
-        return (john.mass / john.height ** 2).toFixed(1);
+        return (this.mass / this.height ** 2).toFixed(1);
     }
 };
 
